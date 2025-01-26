@@ -1,0 +1,62 @@
+{
+  "menu": {
+    "schedule": "Schedule",
+    "homework": "Homework",
+    "materials": "Study Materials",
+    "gpa": "GPA Calculator"
+  },
+  "header": {
+    "title": "AIT STUDENT'S PORTAL"
+  },
+  "gpa": {
+    "title": "GPA Calculator",
+    "warning": "⚠️ Warning: This is a test version of the GPA calculator. Calculations may not be accurate. Please verify results with your supervisor.",
+    "gradeScale": "Grade Scale",
+    "courseName": "Course Name",
+    "grade": "Grade (0-100)",
+    "credits": "Credits",
+    "addCourse": "Add Course",
+    "calculate": "Calculate GPA",
+    "result": "Your GPA: {{gpa}}"
+  },
+  "schedule": {
+    "title": "Schedule",
+    "days": {
+      "monday": "Monday",
+      "subjects": {
+        "math": "Mathematics",
+        "physics": "Physics",
+        "programming": "Programming"
+      }
+    }
+  },
+  "materials": {
+    "title": "Study Materials",
+    "addMaterial": "Add Material",
+    "noMaterials": "No materials yet",
+    "subjects": {
+      "programming": "Programming Language",
+      "cs": "Computer Science",
+      "discrete": "Discrete Mathematics",
+      "probstat": "Probability & Statistics",
+      "other": "Other Subjects"
+    },
+    "types": {
+      "lecture": "Lecture Notes",
+      "practice": "Practice Materials",
+      "exam": "Exam Materials",
+      "other": "Other Materials"
+    }
+  },
+  "homework": {
+    "title": "Homework",
+    "subjects": {
+      "math": "Mathematics",
+      "programming": "Programming"
+    },
+    "due": "Due: {{date}}"
+  },
+  "common": {
+    "backToMenu": "Back to Menu"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "monday": {
+    "name": "Monday",
+    "classes": [
+      {
+        "id": "m1",
+        "time": "08:30 - 09:50",
+        "subject": "iOS",
+        "teacher": "Mr. Ilyas"
+      },
+      {
+        "id": "m2",
+        "time": "10:00 - 11:20",
+        "subject": "iOS Lab",
+        "teacher": "Mr. Ilyas"
+      },
+      {
+        "id": "m3",
+        "time": "11:30 - 12:50",
+        "subject": "iOS Lab",
+        "teacher": "Mr. Ilyas"
+      },
+      {
+        "id": "m4",
+        "time": "12:50 - 13:30",
+        "subject": "Lunch Break",
+        "teacher": "-"
+      },
+      {
+        "id": "m5",
+        "time": "13:30 - 14:50",
+        "subject": "Web Development",
+        "teacher": "Mr. Emil"
+      },
+      {
+        "id": "m6",
+        "time": "15:00 - 16:20",
+        "subject": "Web Programming",
+        "teacher": "Mr. Emil"
+      },
+      {
+        "id": "m7",
+        "time": "16:30 - 17:50",
+        "subject": "Web Programming",
+        "teacher": "Mr. Emil"
+      }
+    ]
+  },
+  "tuesday": {
+    "name": "Tuesday",
+    "classes": [
+      {
+        "id": "t2",
+        "time": "10:00 - 11:20",
+        "subject": "English Beginner",
+        "teacher": "Mr. Ulan"
+      },
+      {
+        "id": "t3",
+        "time": "11:30 - 12:50",
+        "subject": "English Beginner",
+        "teacher": "Mr. Ulan"
+      },
+      {
+        "id": "t4",
+        "time": "12:50 - 13:30",
+        "subject": "Lunch Break",
+        "teacher": "-"
+      },
+      {
+        "id": "t5",
+        "time": "13:30 - 14:50",
+        "subject": "OOP PL",
+        "teacher": "Mrs. Munara"
+      },
+      {
+        "id": "t6",
+        "time": "15:00 - 16:20",
+        "subject": "OOP PL Lab",
+        "teacher": "Mrs. Munara"
+      }
+    ]
+  },
+  "wednesday": {
+    "name": "Wednesday",
+    "classes": [
+      {
+        "id": "t2",
+        "time": "10:00 - 11:20",
+        "subject": "English Beginner",
+        "teacher": "Mr. Ulan"
+      },
+      {
+        "id": "t3",
+        "time": "11:30 - 12:50",
+        "subject": "English Beginner",
+        "teacher": "Mr. Ulan"
+      },
+      {
+        "id": "t4",
+        "time": "12:50 - 13:30",
+        "subject": "Lunch Break",
+        "teacher": "-"
+      },
+      {
+        "id": "t5",
+        "time": "13:30 - 14:50",
+        "subject": "OOP PL",
+        "teacher": "Mrs. Munara"
+      },
+      {
+        "id": "t6",
+        "time": "15:00 - 16:20",
+        "subject": "OOP PL Lab",
+        "teacher": "Mrs. Munara"
+      }
+    ]
+  },
+  "thursday": {
+    "name": "Thursday",
+    "classes": [
+      {
+        "id": "t2",
+        "time": "10:00 - 11:20",
+        "subject": "English Intermediate",
+        "teacher": "Mr. Ulan"
+      },
+      {
+        "id": "t3",
+        "time": "11:30 - 12:50",
+        "subject": "English Intermediate",
+        "teacher": "Mr. Ulan"
+      },
+      {
+        "id": "t4",
+        "time": "12:50 - 13:30",
+        "subject": "Lunch Break",
+        "teacher": "-"
+      },
+      {
+        "id": "t5",
+        "time": "13:30 - 14:50",
+        "subject": "OOP PL Lab",
+        "teacher": "Mrs. Munara"
+      },
+      {
+        "id": "t6",
+        "time": "15:00 - 16:20",
+        "subject": "Linear Algebra",
+        "teacher": "Mrs. Jamilya"
+      },
+      {
+        "id": "t7",
+        "time": "16:30 - 17:50",
+        "subject": "Linear Algebra",
+        "teacher": "Mrs. Jamilya"
+      }
+    ]
+  }
+}

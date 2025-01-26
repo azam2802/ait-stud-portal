@@ -1,0 +1,188 @@
+{
+  "programming": {
+    "name": "Programming Language",
+    "materials": [
+      {
+        "id": "pl1",
+        "title": "Python Basics",
+        "type": "lecture",
+        "description": "Introduction to Python programming language",
+        "url": "https://www.w3schools.com/python/"
+      },
+      {
+        "id": "pl2",
+        "title": "Python 1 Semester GitHub Repository",
+        "type": "practice",
+        "description": "All the code from the first semester",
+        "url": "https://github.com/emilAIT/PL_2024_S1"
+      },
+      {
+        "id": "pl3",
+        "title": "Python Files",
+        "type": "lecture",
+        "description": "Working with files in Python",
+        "url": "https://www.w3schools.com/python/python_file_handling.asp"
+      },
+      {
+        "id": "pl4",
+        "title": "Python OOP",
+        "type": "lecture",
+        "description": "Introduction to Object-Oriented Programming in Python",
+        "url": "https://www.w3schools.com/python/python_classes.asp"
+      },
+      {
+        "id": "pl5",
+        "title": "Web Development Basics Semester 2",
+        "type": "lecture",
+        "description": "Introduction to Web Development",
+        "url": "https://www.w3schools.com/html/"
+      },
+      {
+        "id": "pl6",
+        "title": "Java Basics",
+        "type": "lecture",
+        "description": "Introduction to Java programming language",
+        "url": "https://www.w3schools.com/java/"
+      }
+    ]
+  },
+  "cs": {
+    "name": "Computer Science",
+    "materials": [
+      {
+        "id": "cs1",
+        "title": "Introduction to Computer Science",
+        "type": "lecture",
+        "description": "Basic concepts and history of computer science",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_01.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs2",
+        "title": "Memory, Data, & Addressing I",
+        "type": "practice",
+        "description": "Memory, data representation, and addressing",
+        "url": "http://dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_02.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs3",
+        "title": "Data III, Integers I",
+        "type": "lecture",
+        "description": "Data types and integers",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_03.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs4",
+        "title": "Integers II",
+        "type": "lecture",
+        "description": "Integers and arithmetic operations",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_04.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs5",
+        "title": "Floating Point",
+        "type": "lecture",
+        "description": "Floating point numbers and arithmetic operations",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_05.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs6",
+        "title": "x86-64 Programming I",
+        "type": "lecture",
+        "description": "Introduction to x86-64 assembly language",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627  n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_06.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs7",
+        "title": "Arrays, Structs & Alignment",
+        "type": "lecture",
+        "description": "Arrays, structs, and memory alignment",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_07.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+
+      {
+        "id": "cs8",
+        "title": "Caches I",
+        "type": "lecture",
+        "description": "Caches and memory hierarchy",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_08.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs9",
+        "title": "Caches II",
+        "type": "lecture",
+        "description": "Cache hierarchy and memory organization",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_09.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs10",
+        "title": "Caches III",
+        "type": "lecture",
+        "description": "Cache performance and optimization",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_10.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs11",
+        "title": "Caches IV",
+        "type": "lecture",
+        "description": "Cache performance and optimization",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_11.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs12",
+        "title": "GCC Optimizations",
+        "type": "lecture",
+        "description": "GCC compiler optimizations and flags",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_12_optimizations.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs13",
+        "title": "Linking",
+        "type": "lecture",
+        "description": "Linking and static libraries",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_12.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs14",
+        "title": "System Control Flow & Processes I",
+        "type": "lecture",
+        "description": "System control flow and processes in Unix/Linux",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_13.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs15",
+        "title": "Processes II & Virtual Memory I",
+        "type": "lecture",
+        "description": "Processes and virtual memory in Unix/Linux",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_14.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs16",
+        "title": "Virtual Memory II",
+        "type": "lecture",
+        "description": "Virtual memory and memory management in Unix/Linux",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_15.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs17",
+        "title": "Virtual Memory III",
+        "type": "lecture",
+        "description": "Virtual memory and memory management in Unix/Linux",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=2&preview=AIT_CS_16.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs18",
+        "title": "Computer Systems - A Programmer's Perspective",
+        "type": "lecture",
+        "description": "A book on computer systems and programming",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=3&preview=Computer+Systems+-+A+Programmer%27s+Perspective+(2nd).pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      },
+      {
+        "id": "cs19",
+        "title": "Stack and Heap",
+        "type": "lecture",
+        "description": "Stack and heap memory management",
+        "url": "https://www.dropbox.com/scl/fo/xpouinttirkptsai627n5/AJ-q8SjtnLGXjsXnzJH11Sc/IntroductionToComputerScience?dl=0&e=4&preview=IntroCS_Lecture5_AIT.pdf&rlkey=c47pt8y3vna2llboom3gr42ly&subfolder_nav_tracking=1"
+      }
+    ]
+  }
+}
