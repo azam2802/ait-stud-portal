@@ -5,7 +5,15 @@ import scheduleData from '../data/schedule.json';
 const Schedule = () => {
   const { t } = useTranslation();
 
-  const isCurrentClass = (timeRange) => {
+  const getCurrentDay = () => {
+    const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+    return days[new Date().getDay()];
+  };
+
+  const isCurrentClass = (timeRange, day) => {
+    const currentDay = getCurrentDay();
+    if (currentDay !== day) return false;
+
     const now = new Date();
     const currentTime = now.getHours() * 60 + now.getMinutes(); // Convert current time to minutes
 
@@ -17,8 +25,8 @@ const Schedule = () => {
     return currentTime >= start && currentTime <= end;
   };
 
-  const getClassStyle = (class_) => {
-    const isCurrent = isCurrentClass(class_.time);
+  const getClassStyle = (class_, day) => {
+    const isCurrent = isCurrentClass(class_.time, day);
     const isLunch = class_.subject.toLowerCase().includes('lunch');
 
     if (isLunch) {
@@ -34,14 +42,14 @@ const Schedule = () => {
       <h3 className="font-semibold mb-2">{schedule.name}</h3>
       <ul className="space-y-2">
         {schedule.classes.map((class_) => {
-          const isCurrent = isCurrentClass(class_.time);
+          const isCurrent = isCurrentClass(class_.time, day);
           const isLunch = class_.subject.toLowerCase().includes('lunch');
           
           return (
             <li 
               key={class_.id} 
               className={`relative flex justify-between items-center p-2 rounded transition-colors
-                ${getClassStyle(class_)}`}
+                ${getClassStyle(class_, day)}`}
             >
               <div className="flex items-center gap-2">
                 <span className="text-sm font-medium">{class_.time}</span>
