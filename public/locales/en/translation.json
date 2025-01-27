@@ -57,6 +57,8 @@
     "due": "Due: {{date}}"
   },
   "common": {
-    "backToMenu": "Back to Menu"
+    "backToMenu": "Back to Menu",
+    "current": "Current Class",
+    "lunch": "Lunch Break"
   }
 }

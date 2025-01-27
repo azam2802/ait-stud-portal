@@ -61,12 +61,12 @@ const Schedule = () => {
               <div className="flex flex-col items-end gap-1">
                 {isCurrent && !isLunch && (
                   <span className="text-xs font-bold text-green-400 animate-pulse">
-                    Current Class
+                    {t('common.current')}
                   </span>
                 )}
                 {isCurrent && isLunch && (
                   <span className="text-xs font-bold text-orange-400 animate-pulse">
-                    Lunch Time
+                    {t('common.lunch')}
                   </span>
                 )}
                 <span className="text-xs opacity-75">{class_.teacher}</span>
