@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import { Header } from './layout/header'
 import { Menu } from './components/Menu/Menu'
 import { Schedule, Homework, Materials, GpaCalculator } from './pages'
@@ -8,7 +8,6 @@ import 'animate.css'
 
 function App() {
   return (
-    <BrowserRouter>
       <div className='container mx-auto animate__animated animate__fadeIn animate__slower'>
         <LanguageSwitcher />
         <Header/>
@@ -20,7 +19,6 @@ function App() {
           <Route path="/gpa" element={<GpaCalculator />} />
         </Routes>
       </div>
-    </BrowserRouter>
   )
 }
 
